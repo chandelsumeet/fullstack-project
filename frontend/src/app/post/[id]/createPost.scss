@@ -1,0 +1,20 @@
+button {
+  padding: 5px 10px;
+  background-color: #dbb5b5;
+  font-weight: bold;
+  cursor: pointer;
+}
+.form-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  form {
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    background: #dbb5b5;
+    padding:20px
+  }
+
+}
