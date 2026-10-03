@@ -5,8 +5,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "dotenvx run -f .env -- nodemon app.js ",
-    "build": "dotenvx run -f .env.prod -- nodemon app.js ",
+    "start": "dotenvx run -f .env -- node app.js",
+    "build": "dotenvx run -f .env.prod -- node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
